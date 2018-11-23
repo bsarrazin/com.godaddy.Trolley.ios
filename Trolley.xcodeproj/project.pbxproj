@@ -10,12 +10,16 @@
 		41B5657C5F1F4FFD13832B50 /* Pods_TrolleyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F779E0B5DB332C835E3221F1 /* Pods_TrolleyTests.framework */; };
 		9B31F45CEBFD156D959E5C76 /* Pods_Trolley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A3AC8B968CAB1567E27571 /* Pods_Trolley.framework */; };
 		B5C432B221A8819C003F971E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432B121A8819C003F971E /* AppDelegate.swift */; };
-		B5C432B421A8819C003F971E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432B321A8819C003F971E /* ViewController.swift */; };
+		B5C432B421A8819C003F971E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432B321A8819C003F971E /* SplashViewController.swift */; };
 		B5C432B721A8819C003F971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C432B521A8819C003F971E /* Main.storyboard */; };
 		B5C432B921A8819C003F971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C432B821A8819C003F971E /* Assets.xcassets */; };
 		B5C432BC21A8819C003F971E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C432BA21A8819C003F971E /* LaunchScreen.storyboard */; };
 		B5C432C721A8819D003F971E /* TrolleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432C621A8819D003F971E /* TrolleyTests.swift */; };
 		B5C432D221A8819D003F971E /* TrolleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432D121A8819D003F971E /* TrolleyUITests.swift */; };
+		B5C432F121A88768003F971E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432F021A88768003F971E /* AuthViewController.swift */; };
+		B5C432F321A887BF003F971E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432F221A887BF003F971E /* HomeViewController.swift */; };
+		B5C432F721A88A56003F971E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432F621A88A56003F971E /* User.swift */; };
+		B5C432F921A88A92003F971E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432F821A88A92003F971E /* DataStore.swift */; };
 		E622A6DD4B08BA7A5BBBBC4D /* Pods_TrolleyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5A3DFE2C521EA9384E0D98 /* Pods_TrolleyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +47,7 @@
 		96E8F8573D9B0FC9BED02C62 /* Pods-Trolley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trolley.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trolley/Pods-Trolley.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C432AE21A8819C003F971E /* Trolley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trolley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C432B121A8819C003F971E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5C432B321A8819C003F971E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5C432B321A8819C003F971E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B5C432B621A8819C003F971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5C432B821A8819C003F971E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C432BB21A8819C003F971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,10 @@
 		B5C432CD21A8819D003F971E /* TrolleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrolleyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C432D121A8819D003F971E /* TrolleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyUITests.swift; sourceTree = "<group>"; };
 		B5C432D321A8819D003F971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C432F021A88768003F971E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		B5C432F221A887BF003F971E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B5C432F621A88A56003F971E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B5C432F821A88A92003F971E /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		C8A3AC8B968CAB1567E27571 /* Pods_Trolley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trolley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7981418F1D0E5400EE5E27B /* Pods-TrolleyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyUITests/Pods-TrolleyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DA5A3DFE2C521EA9384E0D98 /* Pods_TrolleyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrolleyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,7 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				B5C432B121A8819C003F971E /* AppDelegate.swift */,
-				B5C432B321A8819C003F971E /* ViewController.swift */,
+				B5C432F421A88A36003F971E /* Data Store */,
+				B5C432F521A88A49003F971E /* Model */,
+				B5C432EF21A8874E003F971E /* View Controllers */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -219,6 +229,32 @@
 				B5C432C621A8819D003F971E /* TrolleyTests.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		B5C432EF21A8874E003F971E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5C432F021A88768003F971E /* AuthViewController.swift */,
+				B5C432F221A887BF003F971E /* HomeViewController.swift */,
+				B5C432B321A8819C003F971E /* SplashViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B5C432F421A88A36003F971E /* Data Store */ = {
+			isa = PBXGroup;
+			children = (
+				B5C432F821A88A92003F971E /* DataStore.swift */,
+			);
+			path = "Data Store";
+			sourceTree = "<group>";
+		};
+		B5C432F521A88A49003F971E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5C432F621A88A56003F971E /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,8 +460,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C432B421A8819C003F971E /* ViewController.swift in Sources */,
+				B5C432B421A8819C003F971E /* SplashViewController.swift in Sources */,
+				B5C432F921A88A92003F971E /* DataStore.swift in Sources */,
+				B5C432F121A88768003F971E /* AuthViewController.swift in Sources */,
 				B5C432B221A8819C003F971E /* AppDelegate.swift in Sources */,
+				B5C432F721A88A56003F971E /* User.swift in Sources */,
+				B5C432F321A887BF003F971E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
