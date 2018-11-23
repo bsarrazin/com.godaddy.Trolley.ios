@@ -10,6 +10,7 @@
 		41B5657C5F1F4FFD13832B50 /* Pods_TrolleyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F779E0B5DB332C835E3221F1 /* Pods_TrolleyTests.framework */; };
 		9B31F45CEBFD156D959E5C76 /* Pods_Trolley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A3AC8B968CAB1567E27571 /* Pods_Trolley.framework */; };
 		B531C93F21A898FB00F559DA /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531C93E21A898FB00F559DA /* Cart.swift */; };
+		B531C94121A89EB300F559DA /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531C94021A89EB300F559DA /* StoreViewController.swift */; };
 		B5C432B221A8819C003F971E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432B121A8819C003F971E /* AppDelegate.swift */; };
 		B5C432B421A8819C003F971E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C432B321A8819C003F971E /* SplashViewController.swift */; };
 		B5C432B721A8819C003F971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C432B521A8819C003F971E /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		59A8F3BEA8CDC500F1EAB810 /* Pods-TrolleyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrolleyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrolleyTests/Pods-TrolleyTests.release.xcconfig"; sourceTree = "<group>"; };
 		96E8F8573D9B0FC9BED02C62 /* Pods-Trolley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trolley.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trolley/Pods-Trolley.debug.xcconfig"; sourceTree = "<group>"; };
 		B531C93E21A898FB00F559DA /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		B531C94021A89EB300F559DA /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		B5C432AE21A8819C003F971E /* Trolley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trolley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C432B121A8819C003F971E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C432B321A8819C003F971E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				B5C432F021A88768003F971E /* AuthViewController.swift */,
 				B5C432F221A887BF003F971E /* HomeViewController.swift */,
 				B5C432B321A8819C003F971E /* SplashViewController.swift */,
+				B531C94021A89EB300F559DA /* StoreViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B531C94121A89EB300F559DA /* StoreViewController.swift in Sources */,
 				B5C432B421A8819C003F971E /* SplashViewController.swift in Sources */,
 				B5C432F921A88A92003F971E /* DataStore.swift in Sources */,
 				B5C432F121A88768003F971E /* AuthViewController.swift in Sources */,
